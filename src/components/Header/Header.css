@@ -1,0 +1,35 @@
+.header-bg{
+    background-image: url('https://i.ibb.co/mJnWVb7/Mask-Group-2.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navLinkLeft{
+    margin-left: 80px;
+    font-weight:600;
+    color:#000
+}
+.navLinkRight{
+    margin-right: 80px;
+    font-weight:600;
+    color:#fff;
+}
+.rightNav{
+    margin-top: 28px;
+}
+/* .info:after{
+    content: "";
+    position: relative;
+    background-image: url(https://i.ibb.co/vkJvbJn/Mask-Group-1.png);
+    z-index: 100000;
+    left: 395px;
+    top: -310px;
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 450px;
+    width: 650px;
+} */
+.header-footer-common{
+    padding: 10px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
