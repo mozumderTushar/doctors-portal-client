@@ -16,9 +16,11 @@ export const UserContext = createContext();
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({})
+  const [date, setDate] = useState()
   return (
-    <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
+    <UserContext.Provider value={[loggedInUser, setLoggedInUser, date, setDate]}>
       <p>name: {loggedInUser.name}</p>
+      {/* <p>date: {date.date}</p> */}
         <Router>
           <Switch>
             <Route exact path='/'>
@@ -27,9 +29,9 @@ function App() {
             <PrivateRoute path='/appointment'>
               <GetAppointment/>
             </PrivateRoute>
-            <Route path='/patient'>
+            <PrivateRoute path='/patient'>
               <PatientInfo/>
-            </Route>
+            </PrivateRoute>
             <Route path='/login'>
               <LogIn/>
             </Route>

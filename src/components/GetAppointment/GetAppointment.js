@@ -33,12 +33,12 @@ const GetAppointment = () => {
                     <nav className="navbar navbar-light bg-transparent">
                         <Link to='#' className="navbar-brand"></Link>
                         <div>
-                            <Link to='#' className="navLinkLeft">Home</Link>
-                            <Link to='#' className="navLinkLeft" >About</Link>
-                            <Link to='#' className="navLinkLeft">Dental Services</Link>
-                            <Link to='#' className="navLinkLeft">Reviews</Link>
-                            <Link to='#' className="navLinkLeft">Blog</Link>
-                            <Link to='#' className="navLinkLeft">Contact Us</Link>
+                            <Link to='/home' className="navLinkLeft">Home</Link>
+                            <Link to='/about' className="navLinkLeft" >About</Link>
+                            <Link to='/services' className="navLinkLeft">Dental Services</Link>
+                            <Link to='/reviews' className="navLinkLeft">Reviews</Link>
+                            <Link to='/blog' className="navLinkLeft">Blog</Link>
+                            <Link to='/contact' className="navLinkLeft">Contact Us</Link>
                         </div>
                     </nav>
                 </div>
